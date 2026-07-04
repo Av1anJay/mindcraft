@@ -1,0 +1,30 @@
+{
+    "name": "custom-openai",
+    "description": "Using a custom OpenAI-compatible API endpoint (e.g., local llama.cpp server, vLLM, or any third-party provider that supports the OpenAI API format).",
+
+    "model": {
+        "api": "openai",
+        "model": "your-model-name",
+        "url": "http://your-custom-endpoint.com/v1"
+    },
+
+    "code_model": {
+        "api": "openai",
+        "model": "your-model-name",
+        "url": "http://your-custom-endpoint.com/v1"
+    },
+
+    "vision_model": {
+        "api": "openai",
+        "model": "your-model-name",
+        "url": "http://your-custom-endpoint.com/v1"
+    },
+
+    "embedding": {
+        "api": "openai",
+        "model": "text-embedding-3-small",
+        "url": "http://your-custom-endpoint.com/v1"
+    },
+
+    "speak_model": "openai/tts-1/echo"
+}
